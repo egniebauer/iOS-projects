@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnimalYears" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3zS-6e-eJe">
+                                <rect key="frame" x="160" y="86" width="0.0" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="5ub-xz-zkh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How old are you (in human years)?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8KH-7v-rmk">
+                                <rect key="frame" x="28.5" y="161" width="263" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="e.g. 13" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CF0-Li-bqi">
+                                <rect key="frame" x="128" y="189" width="64" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick an animal:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5NP-D2-Gfx">
+                                <rect key="frame" x="103" y="254" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1F-rW-35W">
+                                <rect key="frame" x="130" y="283" width="60" height="30"/>
+                                <state key="normal" title="Elephant"/>
+                                <connections>
+                                    <action selector="elephantPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uob-b7-N0G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xzd-eZ-z0E">
+                                <rect key="frame" x="56" y="283" width="31" height="30"/>
+                                <state key="normal" title="Cow"/>
+                                <connections>
+                                    <action selector="cowPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pqv-U8-N3m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukb-dU-USB">
+                                <rect key="frame" x="233" y="283" width="34" height="30"/>
+                                <state key="normal" title="Elmo"/>
+                                <connections>
+                                    <action selector="elmoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OfF-1b-E4d"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D7E-Tp-pWl">
+                                <rect key="frame" x="40" y="333" width="240" height="223"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="00a-5Y-KDp"/>
+                                    <constraint firstAttribute="height" constant="223" id="kuA-lv-pjh"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animal Years" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="saU-ZM-uKL">
+                                <rect key="frame" x="77" y="28" width="166" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Yi1-d7-bGe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3zS-6e-eJe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1sh-AR-GSQ"/>
+                            <constraint firstItem="CF0-Li-bqi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2MF-ri-poN"/>
+                            <constraint firstItem="c1F-rW-35W" firstAttribute="top" secondItem="5NP-D2-Gfx" secondAttribute="bottom" constant="8" id="2xr-ya-3Np"/>
+                            <constraint firstItem="5NP-D2-Gfx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7yS-7T-s28"/>
+                            <constraint firstItem="Xzd-eZ-z0E" firstAttribute="top" secondItem="8KH-7v-rmk" secondAttribute="bottom" constant="101" id="8wm-bQ-XkF"/>
+                            <constraint firstItem="CF0-Li-bqi" firstAttribute="top" secondItem="8KH-7v-rmk" secondAttribute="bottom" constant="7.5" id="9Oq-B3-0i8"/>
+                            <constraint firstItem="3zS-6e-eJe" firstAttribute="top" secondItem="saU-ZM-uKL" secondAttribute="bottom" constant="8" id="9bz-e0-gw3"/>
+                            <constraint firstItem="D7E-Tp-pWl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ANd-eC-7m6"/>
+                            <constraint firstItem="D7E-Tp-pWl" firstAttribute="top" secondItem="ukb-dU-USB" secondAttribute="bottom" constant="20" id="EaN-hB-8BX"/>
+                            <constraint firstItem="5NP-D2-Gfx" firstAttribute="top" secondItem="CF0-Li-bqi" secondAttribute="bottom" constant="35" id="FUJ-rF-FZy"/>
+                            <constraint firstItem="c1F-rW-35W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gu2-sD-pft"/>
+                            <constraint firstItem="c1F-rW-35W" firstAttribute="leading" secondItem="Xzd-eZ-z0E" secondAttribute="trailing" constant="43" id="MWI-zC-4Ct"/>
+                            <constraint firstItem="ukb-dU-USB" firstAttribute="leading" secondItem="c1F-rW-35W" secondAttribute="trailing" constant="43" id="NIP-2j-69B"/>
+                            <constraint firstItem="saU-ZM-uKL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Vvk-4T-AIi"/>
+                            <constraint firstItem="8KH-7v-rmk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dSo-cL-b8T"/>
+                            <constraint firstItem="ukb-dU-USB" firstAttribute="top" secondItem="8KH-7v-rmk" secondAttribute="bottom" constant="101" id="edd-HM-um4"/>
+                            <constraint firstItem="3zS-6e-eJe" firstAttribute="top" secondItem="saU-ZM-uKL" secondAttribute="bottom" constant="8" id="n3O-7c-mvr"/>
+                            <constraint firstItem="saU-ZM-uKL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qJf-l6-UZi"/>
+                            <constraint firstItem="8KH-7v-rmk" firstAttribute="top" secondItem="3zS-6e-eJe" secondAttribute="bottom" constant="25" id="z0w-GB-7X3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ageInput" destination="CF0-Li-bqi" id="xsD-dF-h9y"/>
+                        <outlet property="animalImage" destination="D7E-Tp-pWl" id="YfN-W5-DCI"/>
+                        <outlet property="animalYearsLabel" destination="3zS-6e-eJe" id="i0P-um-DEa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="138.38028169014083"/>
+        </scene>
+    </scenes>
+</document>
