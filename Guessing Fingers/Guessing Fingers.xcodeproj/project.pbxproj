@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59A9E3491E909289009E9C2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9E3481E909289009E9C2F /* AppDelegate.swift */; };
+		59A9E34B1E909289009E9C2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9E34A1E909289009E9C2F /* ViewController.swift */; };
+		59A9E34E1E909289009E9C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A9E34C1E909289009E9C2F /* Main.storyboard */; };
+		59A9E3501E909289009E9C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59A9E34F1E909289009E9C2F /* Assets.xcassets */; };
+		59A9E3531E909289009E9C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A9E3511E909289009E9C2F /* LaunchScreen.storyboard */; };
+		59A9E35E1E909289009E9C2F /* Guessing_FingersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9E35D1E909289009E9C2F /* Guessing_FingersTests.swift */; };
+		59A9E3691E90928A009E9C2F /* Guessing_FingersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9E3681E90928A009E9C2F /* Guessing_FingersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59A9E35A1E909289009E9C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59A9E33D1E909289009E9C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59A9E3441E909289009E9C2F;
+			remoteInfo = "Guessing Fingers";
+		};
+		59A9E3651E909289009E9C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59A9E33D1E909289009E9C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59A9E3441E909289009E9C2F;
+			remoteInfo = "Guessing Fingers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59A9E3451E909289009E9C2F /* Guessing Fingers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guessing Fingers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A9E3481E909289009E9C2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59A9E34A1E909289009E9C2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59A9E34D1E909289009E9C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59A9E34F1E909289009E9C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59A9E3521E909289009E9C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59A9E3541E909289009E9C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59A9E3591E909289009E9C2F /* Guessing FingersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guessing FingersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A9E35D1E909289009E9C2F /* Guessing_FingersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guessing_FingersTests.swift; sourceTree = "<group>"; };
+		59A9E35F1E909289009E9C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59A9E3641E909289009E9C2F /* Guessing FingersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guessing FingersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A9E3681E90928A009E9C2F /* Guessing_FingersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guessing_FingersUITests.swift; sourceTree = "<group>"; };
+		59A9E36A1E90928A009E9C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59A9E3421E909289009E9C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A9E3561E909289009E9C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A9E3611E909289009E9C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59A9E33C1E909289009E9C2F = {
+			isa = PBXGroup;
+			children = (
+				59A9E3471E909289009E9C2F /* Guessing Fingers */,
+				59A9E35C1E909289009E9C2F /* Guessing FingersTests */,
+				59A9E3671E90928A009E9C2F /* Guessing FingersUITests */,
+				59A9E3461E909289009E9C2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59A9E3461E909289009E9C2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59A9E3451E909289009E9C2F /* Guessing Fingers.app */,
+				59A9E3591E909289009E9C2F /* Guessing FingersTests.xctest */,
+				59A9E3641E909289009E9C2F /* Guessing FingersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59A9E3471E909289009E9C2F /* Guessing Fingers */ = {
+			isa = PBXGroup;
+			children = (
+				59A9E3481E909289009E9C2F /* AppDelegate.swift */,
+				59A9E34A1E909289009E9C2F /* ViewController.swift */,
+				59A9E34C1E909289009E9C2F /* Main.storyboard */,
+				59A9E34F1E909289009E9C2F /* Assets.xcassets */,
+				59A9E3511E909289009E9C2F /* LaunchScreen.storyboard */,
+				59A9E3541E909289009E9C2F /* Info.plist */,
+			);
+			path = "Guessing Fingers";
+			sourceTree = "<group>";
+		};
+		59A9E35C1E909289009E9C2F /* Guessing FingersTests */ = {
+			isa = PBXGroup;
+			children = (
+				59A9E35D1E909289009E9C2F /* Guessing_FingersTests.swift */,
+				59A9E35F1E909289009E9C2F /* Info.plist */,
+			);
+			path = "Guessing FingersTests";
+			sourceTree = "<group>";
+		};
+		59A9E3671E90928A009E9C2F /* Guessing FingersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59A9E3681E90928A009E9C2F /* Guessing_FingersUITests.swift */,
+				59A9E36A1E90928A009E9C2F /* Info.plist */,
+			);
+			path = "Guessing FingersUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59A9E3441E909289009E9C2F /* Guessing Fingers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A9E36D1E90928A009E9C2F /* Build configuration list for PBXNativeTarget "Guessing Fingers" */;
+			buildPhases = (
+				59A9E3411E909289009E9C2F /* Sources */,
+				59A9E3421E909289009E9C2F /* Frameworks */,
+				59A9E3431E909289009E9C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Guessing Fingers";
+			productName = "Guessing Fingers";
+			productReference = 59A9E3451E909289009E9C2F /* Guessing Fingers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59A9E3581E909289009E9C2F /* Guessing FingersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A9E3701E90928A009E9C2F /* Build configuration list for PBXNativeTarget "Guessing FingersTests" */;
+			buildPhases = (
+				59A9E3551E909289009E9C2F /* Sources */,
+				59A9E3561E909289009E9C2F /* Frameworks */,
+				59A9E3571E909289009E9C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59A9E35B1E909289009E9C2F /* PBXTargetDependency */,
+			);
+			name = "Guessing FingersTests";
+			productName = "Guessing FingersTests";
+			productReference = 59A9E3591E909289009E9C2F /* Guessing FingersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59A9E3631E909289009E9C2F /* Guessing FingersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A9E3731E90928A009E9C2F /* Build configuration list for PBXNativeTarget "Guessing FingersUITests" */;
+			buildPhases = (
+				59A9E3601E909289009E9C2F /* Sources */,
+				59A9E3611E909289009E9C2F /* Frameworks */,
+				59A9E3621E909289009E9C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59A9E3661E909289009E9C2F /* PBXTargetDependency */,
+			);
+			name = "Guessing FingersUITests";
+			productName = "Guessing FingersUITests";
+			productReference = 59A9E3641E909289009E9C2F /* Guessing FingersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59A9E33D1E909289009E9C2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Elizabeth Niebauer";
+				TargetAttributes = {
+					59A9E3441E909289009E9C2F = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = HMK7YZUNKD;
+						ProvisioningStyle = Automatic;
+					};
+					59A9E3581E909289009E9C2F = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59A9E3441E909289009E9C2F;
+					};
+					59A9E3631E909289009E9C2F = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59A9E3441E909289009E9C2F;
+					};
+				};
+			};
+			buildConfigurationList = 59A9E3401E909289009E9C2F /* Build configuration list for PBXProject "Guessing Fingers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59A9E33C1E909289009E9C2F;
+			productRefGroup = 59A9E3461E909289009E9C2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59A9E3441E909289009E9C2F /* Guessing Fingers */,
+				59A9E3581E909289009E9C2F /* Guessing FingersTests */,
+				59A9E3631E909289009E9C2F /* Guessing FingersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59A9E3431E909289009E9C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A9E3531E909289009E9C2F /* LaunchScreen.storyboard in Resources */,
+				59A9E3501E909289009E9C2F /* Assets.xcassets in Resources */,
+				59A9E34E1E909289009E9C2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A9E3571E909289009E9C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A9E3621E909289009E9C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59A9E3411E909289009E9C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A9E34B1E909289009E9C2F /* ViewController.swift in Sources */,
+				59A9E3491E909289009E9C2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A9E3551E909289009E9C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A9E35E1E909289009E9C2F /* Guessing_FingersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A9E3601E909289009E9C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A9E3691E90928A009E9C2F /* Guessing_FingersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59A9E35B1E909289009E9C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59A9E3441E909289009E9C2F /* Guessing Fingers */;
+			targetProxy = 59A9E35A1E909289009E9C2F /* PBXContainerItemProxy */;
+		};
+		59A9E3661E909289009E9C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59A9E3441E909289009E9C2F /* Guessing Fingers */;
+			targetProxy = 59A9E3651E909289009E9C2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59A9E34C1E909289009E9C2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59A9E34D1E909289009E9C2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59A9E3511E909289009E9C2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59A9E3521E909289009E9C2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59A9E36B1E90928A009E9C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59A9E36C1E90928A009E9C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59A9E36E1E90928A009E9C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HMK7YZUNKD;
+				INFOPLIST_FILE = "Guessing Fingers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pudgykogima.Guessing-Fingers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		59A9E36F1E90928A009E9C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HMK7YZUNKD;
+				INFOPLIST_FILE = "Guessing Fingers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pudgykogima.Guessing-Fingers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		59A9E3711E90928A009E9C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Guessing FingersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pudgykogima.Guessing-FingersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guessing Fingers.app/Guessing Fingers";
+			};
+			name = Debug;
+		};
+		59A9E3721E90928A009E9C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Guessing FingersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pudgykogima.Guessing-FingersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guessing Fingers.app/Guessing Fingers";
+			};
+			name = Release;
+		};
+		59A9E3741E90928A009E9C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Guessing FingersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pudgykogima.Guessing-FingersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Guessing Fingers";
+			};
+			name = Debug;
+		};
+		59A9E3751E90928A009E9C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Guessing FingersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pudgykogima.Guessing-FingersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Guessing Fingers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59A9E3401E909289009E9C2F /* Build configuration list for PBXProject "Guessing Fingers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A9E36B1E90928A009E9C2F /* Debug */,
+				59A9E36C1E90928A009E9C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A9E36D1E90928A009E9C2F /* Build configuration list for PBXNativeTarget "Guessing Fingers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A9E36E1E90928A009E9C2F /* Debug */,
+				59A9E36F1E90928A009E9C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A9E3701E90928A009E9C2F /* Build configuration list for PBXNativeTarget "Guessing FingersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A9E3711E90928A009E9C2F /* Debug */,
+				59A9E3721E90928A009E9C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A9E3731E90928A009E9C2F /* Build configuration list for PBXNativeTarget "Guessing FingersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A9E3741E90928A009E9C2F /* Debug */,
+				59A9E3751E90928A009E9C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59A9E33D1E909289009E9C2F /* Project object */;
+}
